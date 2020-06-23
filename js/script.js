@@ -1,5 +1,5 @@
 let log = console.log
-
+log('oui')
 window.addEventListener('keydown', function(e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
