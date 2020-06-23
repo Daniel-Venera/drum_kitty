@@ -3,10 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta property='og:image'
+    content="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34ee8f8c-384b-44d2-9aea-634ab77e4364/d7h6j6v-7145b855-1d71-4841-930d-132066bbb77b.jpg/v1/fill/w_1024,h_640,q_75,strp/black_cat_purple_eyes_by_welshdragon_d7h6j6v-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02NDAiLCJwYXRoIjoiXC9mXC8zNGVlOGY4Yy0zODRiLTQ0ZDItOWFlYS02MzRhYjc3ZTQzNjRcL2Q3aDZqNnYtNzE0NWI4NTUtMWQ3MS00ODQxLTkzMGQtMTMyMDY2YmJiNzdiLmpwZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.Ocrhl-UMJAC-QaF0ZuvC7U8J22Y4CLZyFQKZzJDgvDA" />
   <title>DrumKitty</title>
 </head>
 <body>
-  
+  <nav className='navbar'>
+    DrumKitty in JavaScript
+  </nav>
+<div id='kit'>
+  <div class='key' data-key="65">
+    <div>
+      A<br><br>clap
+    </div>
+  </div>
+  <div class='key' data-key="83">
+    <div>
+      S<br><br>Hihat
+    </div>
+  </div>
+  <div class='key' data-key="68">
+    <div>
+      D<br><br>Kick
+    </div>
+  </div>
+  <div class='key' data-key="70">
+    <div>
+      F<br><br>Openhat
+
+    </div>
+  </div>
+  <div class='key' data-key="74">
+    <div>
+      J<br><br>Snare
+    </div>
+  </div>
+  <div class='key' data-key="75">
+    <div>
+      K <br><br> Perc
+    </div>
+  </div>
+</div>
+  <audio src='audio/clap.wav' data-key="65"></audio>
+  <audio src='audio/hihat.wav' data-key="83"></audio>
+  <audio src='audio/kick.wav' data-key="68"></audio>
+  <audio src='audio/openhat.wav' data-key="70"></audio>
+  <audio src='audio/snare.wav' data-key="74"></audio>
+  <audio src='audio/percussions.wav' data-key="75"></audio>
+  <footer>
+    Created with <i class="fa fa-heart"></i> by Daniel Venera
+    <br>
+    <a href='https://github.com/Daniel-Venera/drum_kitty' target="_blank"><i class='fa fa-github'></i></a>
+
+  </footer>
   <script src='js/script.js'></script>
 </body>
 </html>
