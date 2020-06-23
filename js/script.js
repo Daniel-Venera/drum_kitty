@@ -1,6 +1,5 @@
 let log = console.log
-log('oui')
-window.addEventListener('keydown', function(e) {
+window.addEventListener('keydown', function (e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
   if (!audio) {
@@ -16,4 +15,6 @@ function removeTransition(e) {
 }
 
 const keys = document.querySelectorAll('.key')
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+keys.forEach(key =>
+  key.addEventListener('transitionend', removeTransition));
+
